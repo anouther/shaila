@@ -1,0 +1,136 @@
+<html>
+  <title>for Shaila</title>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5'
+  name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js">
+</script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="script.js"></script>
+
+<body>
+  <style>
+    body {
+      background-image: url("cust.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; 
+      background-position: center;
+      font-family: 'Balsamiq Sans';
+    }
+
+    @keyframes anim {
+      0% {
+        background-size: 100% 100%;
+      }
+
+      25% {
+        background-size: 110% 110%;
+      }
+
+      50% {
+        background-size: 122% 122%;
+      }
+
+      75% {
+        background-size: 110% 110%;
+      }
+
+      100% {
+        background-size: 100% 100%;
+      }
+    }
+  </style>
+
+  <div id="konten">
+
+    <input class='chatMenu hidden' id='offchatMenu' type='checkbox' />
+    <div class="bodyblur"></div>
+    <div class='chatBox'>
+      <div id='data' class='chatContent'>
+        <div class='chatText'>
+          <span id='text1'>Happy 25th mensiversary, my love!</span>
+          <span id='text2'>Sekali lagi kita berhasil melalui satu bulan dengan baik seperti yang kita lakukan selama ini.</span>
+          <span id='text3'> Every moment feels like the first time, and every glance ignites that spark all over again.</span>
+          <span id='text4'>Love just keeps growing stronger, and I couldn't be more grateful to have you</span>
+          <span id='text5'> You are my very favorite, and I love you more than I could even begin to say</span>
+          <span id='text6'> Your love is enough to cheer my days. Your company is the best recipe against loneliness.</span>
+          <span id='text7'>Aku selalu sayang kamu, bahkan di saat keras kepala kamu datang walaupun kesabaran aku setipis tisu. </span>
+          <span id='text8'> Aku selalu sayang kamu. </span>
+          <span id="text10">Aku juga selalu bersyukur dan beruntung karena kehadiran kamu.</span>
+          <span id="text11"> Terima kasih sudah hadir ya sayangku. Aku sayang sekali sama Shaila-ku. Ayo jalani hubungan kita dan jadikan lebih indah dari sebelumnya. I love you so much, <b><i>Shaila Auriana.</i></b></span>
+          <span id="text12">I love you (love you, oh)</span>
+          <span id="text13">I love you in every universe</span>
+          <span id="text14">You'll always be the first</span>
+          <span id="text15">I love you, you're my only one</span>
+          <span id="text16">I love you (I do)ㅤ ㅤ ㅤ </span>
+          <span id="text17">Love you still, I always will</span>
+          <span id="text18">I want you to know how I feel ㅤ </span>
+          <span id="text19">And all the promises that I'll fulfill </span>
+          <span id="text20">My only one</span>
+          <span id='text9'>My only lovе, tap love<label class="lovein" onclick="selesai();">&#9829;</label></span>
+        </div>
+      </div>
+    </div>
+
+    <div id="foto">
+      <div class="image">
+        <img id="photo" src="https://i.postimg.cc/Px3mQ4ZM/giphy.gif" width="200px" height="200px" />
+      </div>
+      <span id="textlv"></span>
+    </div>
+    <div id="contTom"><a class='button whatsapp' onClick='bukaWa();'><i class='icon whatsapp'></i>Kirim</a></div>
+  </div>
+
+  <script type="text/javascript">
+    //Ucapan Terakhir
+    var a = 0, finish; finish = "To Shaila Auriana.Tanggal 1 ke-25 kali. Dengan kehadiran kamu, artinya aku udah diberikan kebahagiaan yang banyak sekali selama 761 hari sampai hari ini dan aku akan selalu bersyukur karena orang itu adalah kamu. Selamat hari jadi kita yang ke-25, Shaila-ku. Sayang, aku minta maaf karena ga bisa jadi orang yang multitasking, bahkan di hari spesial kita aku cuma buat ini, jadi maafin aku yaa sayang. Maaf karena aku cuma bisa bikin ini yang terkesan biasa aja untuk hari jadi kita.Sekali lagi kita berhasil melalui satu bulan dengan baik seperti yang kita lakukan selama ini. Tapi gimanapun kita harus saling memahami satu sama lain.";
+
+    function bukaWa() {window.location = "https://t.me/vanteax"}
+
+    function play() {
+      //Link Audio Bisa Diganti
+      var audio = new Audio('P.S. I LOVE YOU - Paul Partohap (1).mp3');
+      audio.play();
+    }
+    const swals = Swal.mixin({
+      allowOutsideClick: false,
+    });
+    async function mulai() {
+      await swals.fire('Hey, cantik');
+      await swals.fire('Shaila, i want to tell you something');
+      setTimeout(check, 1000); setTimeout(teks1, 1000); play();
+    }
+
+    //Mulai
+    mulai()
+  </script>
+  <script>
+    function teks1() {document.getElementById('text1').style.display = "inline-block"; document.getElementById('text1').style.opacity = "1"; setTimeout(teks2, 4000);}
+
+    function teks2() {document.getElementById('text2').style.display = "inline-block"; document.getElementById('text2').style.opacity = "1"; setTimeout(teks3, 5000); scroll()}
+    function teks3() {document.getElementById('text3').style.display = "inline-block"; document.getElementById('text3').style.opacity = "1"; setTimeout(teks4, 5000); scroll()}
+    function teks4() {document.getElementById('text4').style.display = "inline-block"; document.getElementById('text4').style.opacity = "1"; setTimeout(teks5, 5000); scroll()}
+    function teks5() {document.getElementById('text5').style.display = "inline-block"; document.getElementById('text5').style.opacity = "1"; setTimeout(teks6, 5500); scroll()}
+    function teks6() {document.getElementById('text6').style.display = "inline-block"; document.getElementById('text6').style.opacity = "1"; setTimeout(teks7, 4500); scroll()}
+    function teks7() {document.getElementById('text7').style.display = "inline-block"; document.getElementById('text7').style.opacity = "1"; setTimeout(teks8, 6000); scroll()}
+    function teks8() {document.getElementById('text8').style.display = "inline-block"; document.getElementById('text8').style.opacity = "1"; setTimeout(teks10, 6500); scroll()}
+    function teks10() {document.getElementById('text10').style.display = "inline-block"; document.getElementById('text10').style.opacity = "1"; setTimeout(teks11, 4000); scroll()}
+    function teks11() {document.getElementById('text11').style.display = "inline-block"; document.getElementById('text11').style.opacity = "1"; setTimeout(teks12, 3700); scroll()}
+    function teks12() {document.getElementById('text12').style.display = "inline-block"; document.getElementById('text12').style.opacity = "1"; setTimeout(teks13, 3200); scroll()}
+    function teks13() {document.getElementById('text13').style.display = "inline-block"; document.getElementById('text13').style.opacity = "1"; setTimeout(teks14, 5500); scroll()}
+    function teks14() {document.getElementById('text14').style.display = "inline-block"; document.getElementById('text14').style.opacity = "1"; setTimeout(teks15, 6500); scroll()}
+    function teks15() {document.getElementById('text15').style.display = "inline-block"; document.getElementById('text15').style.opacity = "1"; setTimeout(teks16, 5500); scroll()}
+    function teks16() {document.getElementById('text16').style.display = "inline-block"; document.getElementById('text16').style.opacity = "1"; setTimeout(teks17, 6000); scroll()}
+    function teks17() {document.getElementById('text17').style.display = "inline-block"; document.getElementById('text17').style.opacity = "1"; setTimeout(teks18, 5000); scroll()}
+    function teks18() {document.getElementById('text18').style.display = "inline-block"; document.getElementById('text18').style.opacity = "1"; setTimeout(teks19, 5000); scroll()}
+      function teks19() {document.getElementById('text19').style.display = "inline-block"; document.getElementById('text19').style.opacity = "1"; setTimeout(teks20, 6200); scroll()}
+    function teks20() {document.getElementById('text20').style.display = "inline-block"; document.getElementById('text20').style.opacity = "1"; setTimeout(teks9, 4000); scroll()}
+    function teks9() {document.getElementById('text9').style.display = "inline-block"; document.getElementById('text9').style.opacity = "1"; scroll()}
+  </script>
+</body>
+
+</html>
